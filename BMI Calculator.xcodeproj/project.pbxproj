@@ -13,6 +13,7 @@
 		8D4CEB332490ED1600519D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CEB312490ED1600519D36 /* Main.storyboard */; };
 		8D4CEB352490ED1800519D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CEB342490ED1800519D36 /* Assets.xcassets */; };
 		8D4CEB382490ED1800519D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CEB362490ED1800519D36 /* LaunchScreen.storyboard */; };
+		8D4CEB462492D7E900519D36 /* SecondViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CEB452492D7E900519D36 /* SecondViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D4CEB342490ED1800519D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4CEB372490ED1800519D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4CEB392490ED1900519D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CEB452492D7E900519D36 /* SecondViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4CEB2F2490ED1600519D36 /* ViewController.swift */,
+				8D4CEB452492D7E900519D36 /* SecondViewControler.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -117,6 +120,9 @@
 		8D4CEB202490ED1600519D36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Fahad Tariq";
@@ -165,6 +171,7 @@
 				8D4CEB302490ED1600519D36 /* ViewController.swift in Sources */,
 				8D4CEB2C2490ED1600519D36 /* AppDelegate.swift in Sources */,
 				8D4CEB2E2490ED1600519D36 /* SceneDelegate.swift in Sources */,
+				8D4CEB462492D7E900519D36 /* SecondViewControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
